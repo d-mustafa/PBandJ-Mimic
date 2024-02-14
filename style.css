@@ -1,0 +1,35 @@
+/* CSS RULE */
+/* This rule has 2 declerations */
+/* color, font-size are properties */
+/* blue, 36px are called values */
+/* h1 is callde the selector */
+html {
+  background-color: maroon;
+}
+body {
+  /* Center Fixes Width Layout */
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 500px;
+  margin: 50px auto;
+  padding: 25px 75px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: maroon;
+}
+
+h1,
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  color: maroon;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
